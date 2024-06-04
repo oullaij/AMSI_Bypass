@@ -1,15 +1,16 @@
-AMSI Bypass Technique
-Overview
+# AMSI Bypass Technique
+## Overview
 This repository contains my custom technique for bypassing AMSI (Antimalware Scan Interface) in PowerShell. AMSI is a crucial security feature that scans PowerShell scripts for malicious content. However, as security researchers, we sometimes need to understand how to bypass it for legitimate purposes.
 
-Usage
+# Usage
 Clone the Repository:
 To get started, clone this repository:
+
 git clone https://github.com/oullaij/AMSI_Bypass.git
 
 Build the Project:
 Open the project in Microsoft Visual Studio and build it. This step ensures that the necessary components are compiled correctly.
-Demonstration:
+## Demonstration:
 In the demonstration, I use Process Hacker to inject our custom DLL into PowerShell. This allows us to bypass AMSI and execute PowerShell commands without triggering its scanning mechanisms.
 Video Demonstration
 Watch the video on YouTube where I explain and demonstrate this technique:
